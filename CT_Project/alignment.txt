@@ -1,0 +1,86 @@
+########################################
+# Program: needle
+# Rundate: Tue  1 May 2018 15:41:00
+# Commandline: needle
+#    -outfile temp.txt
+#    -asequence alpha.faa
+#    -bsequence beta.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: temp.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: input5
+# 2: NM_000518.4
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 626
+# Identity:     625/626 (99.8%)
+# Similarity:   625/626 (99.8%)
+# Gaps:           0/626 ( 0.0%)
+# Score: 3121.0
+# 
+#
+#=======================================
+
+input5             1 ACATTTGCTTCTGACACAACTGTGTTCACTAGCAACCTCAAACAGACACC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4        1 ACATTTGCTTCTGACACAACTGTGTTCACTAGCAACCTCAAACAGACACC     50
+
+input5            51 ATGGTGCATCTGACTCCTGTGGAGAAGTCTGCCGTTACTGCCCTGTGGGG    100
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+NM_000518.4       51 ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGG    100
+
+input5           101 CAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      101 CAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGG    150
+
+input5           151 TGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCC    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      151 TGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCC    200
+
+input5           201 ACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      201 ACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAA    250
+
+input5           251 AGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      251 AGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGG    300
+
+input5           301 GCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGAT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      301 GCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGAT    350
+
+input5           351 CCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      351 CCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCA    400
+
+input5           401 TCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      401 TCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAG    450
+
+input5           451 TGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAAGCTCGC    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      451 TGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAAGCTCGC    500
+
+input5           501 TTTCTTGCTGTCCAATTTCTATTAAAGGTTCCTTTGTTCCCTAAGTCCAA    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      501 TTTCTTGCTGTCCAATTTCTATTAAAGGTTCCTTTGTTCCCTAAGTCCAA    550
+
+input5           551 CTACTAAACTGGGGGATATTATGAAGGGCCTTGAGCATCTGGATTCTGCC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NM_000518.4      551 CTACTAAACTGGGGGATATTATGAAGGGCCTTGAGCATCTGGATTCTGCC    600
+
+input5           601 TAATAAAAAACATTTATTTTCATTGC    626
+                     ||||||||||||||||||||||||||
+NM_000518.4      601 TAATAAAAAACATTTATTTTCATTGC    626
+
+
+#---------------------------------------
+#---------------------------------------
